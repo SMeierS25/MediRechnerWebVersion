@@ -1,13 +1,22 @@
 {
-  "name": "Kinderspital Intensiv",
-  "short_name": "Kispit",
-  "start_url": ".",
+  "name": "Kinderspital Medikamentenrechner",
+  "short_name": "Medikamentenrechner",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3880ff",
-  "description": "Die Kinderspital Intensiv-Anwendung",
+  "theme_color": "#f5f5f5",
+  "description": "Die Kinderspital MEdikamentenrechner-Anwendung",
   "icons": [
-    
+    {
+      "src": "/assets/icon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ],
   "scope": "."
 }
